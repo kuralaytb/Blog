@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('head') -%>
+</head>
+<body>
+    <%- include('header') -%>
+    <div class="container">
+        <main class="main gap-4">
+            <div class="blog">
+                <div class="blog-image">
+                    <img src="/img/image 1.png" alt="image1">
+                </div>
+                <div class="options-btn" onclick="openOptions(this)">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                    <span>Еще</span>
+                    <div class="options">
+                        <button class="btn edit">Редактировать</button>
+                        <button class="btn delete">Удалить</button>
+                    </div>
+                </div>
+                <h3 class="blog-title">
+                    Обзор Report Manager от Webix
+                </h3>
+                
+                <p class="blog-text">Осень 2020 года стала плодотворным временем для специалистов Webix. </p>
+                <p class="blog-text">Команда Webix выпустила восьмую версию библиотеки пользовательского интерфейса Webix с двумя новыми комплексными виджетами. Первый - зто Scheduler, о котором мы подробно говорили ранее. Второй виджет - это Gantt chart в JavaScript. Подробную информацию об этом виджете Вы можете найти в статье. </p>
+                <p class="blog-text">Осень 2020 года стала плодотворным временем для специалистов Webix. 
+
+                    Команда Webix выпустила восьмую версию библиотеки пользовательского интерфейса Webix с двумя новыми комплексными виджетами. Первый - зто Scheduler, о котором мы подробно говорили ранее. Второй виджет - это Gantt chart в JavaScript. Подробную информацию об этом виджете Вы можете найти в статье. 
+                    
+                    Ноябрь продолжает тенденцию, и мы спешим поделиться с Вами новым комплексным виджетом Report Manager. Давайте рассмотрим его подробнее.</p>
+                <h5>Что такое комплексные виджеты Webix?</h5>
+                <p class="blog-text">В отличие от обычных виджетов пользовательского интерфейса JavaScript, комплексные виджеты - это полноценные приложения, которые не требуют дополнительной настройки и кастомизации.</p>
+                <p class="blog-text">Они уже готовы к интеграции в Ваше бизнес-приложение, что позволяет экономить рабочее время программистам. Это визуальное воплощение концепции low-code платформы, которой является Webix. Комплексные виджеты Webix сразу же готовы к работе, потому что они содержат функциональный фронт-энд слой и, при необходимости, снабжены различными опциями для бэк-энда. 
+                <p class="blog-text">Гибкая архитектура Webix позволяет легко настраивать эти приложения, расширять их функциональность и интегрировать в существующие решения.</p>
+                <h5>2 комментария</h5>
+                <div class="comment">
+                    <div class="comment-author">
+                        <img class="avatar" src="/img/avatar (1).png" alt="avatar">
+                        <h5>Елнур Сейтжанов</h5>
+                    </div>
+                    <p>В отличие от обычных виджетов пользовательского интерфейса JavaScript, комплексные виджеты - это полноценные приложения, которые не требуют дополнительной настройки и кастомизации.
+                    </p>
+                </div>
+                <div class="border"></div>
+                <div class="comment">
+                    <div class="comment-author">
+                        <img class="avatar" src="/img/avatar (1).png" alt="avatar">
+                        <h5>Елнур Сейтжанов</h5>
+                    </div>
+                    <p>В отличие от обычных виджетов пользовательского интерфейса JavaScript, комплексные виджеты - это полноценные приложения, которые не требуют дополнительной настройки и кастомизации.
+                    </p>
+                </div>
+                <textarea class="form-control" rows="4" placeholder="Введите текст комментария"></textarea>
+                <button type="submit" class="btn">Отправить</button>
+            </div>
+            <div class="categories">
+                <h2 class="title">
+                    Категории
+                </h2>
+                <div class="categories-parent">
+                    <a href="#">Прогнозы в IT</a>
+                    <a href="#">Веб-разработка</a>
+                    <a href="#">Мобильная разработка</a>
+                    <a href="#">Фриланс</a>
+                    <a href="#">Алгоритмы</a>
+                    <a href="#">Тестирование IT систем</a>
+                    <a href="#">Разработка игр</a>
+                    <a href="#">Дизайн и юзабилити</a>
+                    <a href="#">Искуственный интелект</a>
+                    <a href="#">Машинное обучение</a>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="/scripts/openOptions.js"></script>
+</body>
+</html>

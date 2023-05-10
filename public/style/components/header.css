@@ -1,0 +1,34 @@
+header{
+    background-color: #fff;
+}
+.container{
+    font-weight: 500;
+}
+.navbar-brand{
+    font-size: 3.1rem;
+    color:#00A2DC;
+    border-bottom: none;
+}
+.form-control{
+    color:#0000008A;
+}
+.btn{
+    background-color: #00A2DC;
+    color:#fff;
+    transition: .5s;
+}
+.btn >i{
+    color:#fff;
+    margin-right: 0.3rem;
+    transition: .5s;
+}
+.btn.btn-auth{
+    width: 7rem;
+}
+.btn:hover{
+    background-color: #00A2DC;
+    color:#000;
+}
+.btn:hover i{
+    color:#000;
+}

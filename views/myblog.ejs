@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('head') -%>
+</head>
+<body>
+    <%- include('header') -%>
+    <div class="container">
+        <main class="main gap-4">
+            <div class="blog">
+                <div class="my-blog d-flex justify-content-between">
+                    <h2 class="title">Мои блоги</h2>
+                    <a href="/newblog" class="btn">Новый блог</a>
+                </div>
+                <div class="blog-image">
+                    <img src="/img/image 1.png" alt="image1">
+                </div>
+                <div class="options-btn" onclick="openOptions(this)">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                    <span>Еще</span>
+                    <div class="options">
+                        <button class="btn edit">Редактировать</button>
+                        <button class="btn delete">Удалить</button>
+                    </div>
+                </div>
+                <h3 class="blog-title">
+                    Обзор Report Manager от Webix
+                </h3>
+                
+                <p class="blog-text">Осень 2020 года стала плодотворным временем для специалистов Webix. </p>
+                <p class="blog-text">Команда Webix выпустила восьмую версию библиотеки пользовательского интерфейса Webix с двумя новыми комплексными виджетами. Первый - зто Scheduler, о котором мы подробно говорили ранее. Второй виджет - это Gantt chart в JavaScript. Подробную информацию об этом виджете Вы можете найти в статье. </p>
+                <p class="blog-text">Ноябрь продолжает тенденцию, и мы спешим поделиться с Вами новым комплексным виджетом Report Manager. Давайте рассмотрим ег</p>
+                <div class="blog-info">
+                    <div class="blog-item">
+                        <img class='date-icon' src="/icons/date.svg" alt="date-icon">
+                        <p>26.06.2020</p>
+                    </div>
+                    <div class="blog-item">
+                        <img class="views-icon" src="/icons/visibility.svg" alt="views-icon">
+                        <p>21</p>
+                    </div>
+                    <div class="blog-item">
+                        <img class="comments-icon" src="/icons/icon-message.svg" alt="message-icon">
+                        <p>4</p>
+                    </div>
+                    <div class="blog-item">
+                        <img class="section-icon" src="/icons/forums.svg" alt="section-icon">
+                        <p>Веб-разработка</p>
+                    </div>
+                    <div class="blog-item">
+                        <img class="author-icon" src="/icons/person.svg" alt="author-icon">
+                        <p>Nast1289</p>
+                    </div>
+                </div> 
+                
+                <div class="blog-image">
+                    <img src="/img/image 2.png" alt="image1">
+                </div>
+                <h3 class="blog-title">
+                    Разработчики изобрели методологию высокоскоростного программирования
+                </h3>
+                <p class="blog-text">Осень 2020 года стала плодотворным временем для специалистов Webix. </p>
+                <p class="blog-text">Команда Webix выпустила восьмую версию библиотеки пользовательского интерфейса Webix с двумя новыми комплексными виджетами. Первый - зто Scheduler, о котором мы подробно говорили ранее. Второй виджет - это Gantt chart в JavaScript. Подробную информацию об этом виджете Вы можете найти в статье. </p>
+                <p class="blog-text">Ноябрь продолжает тенденцию, и мы спешим поделиться с Вами новым комплексным виджетом Report Manager. Давайте рассмотрим ег</p>
+                <div class="blog-info">
+                    <div class="blog-item">
+                        <img class='date-icon' src="/icons/date.svg" alt="date-icon">
+                        <p>26.06.2020</p>
+                    </div>
+                    <div class="blog-item">
+                        <img class="views-icon" src="/icons/visibility.svg" alt="views-icon">
+                        <p>21</p>
+                    </div>
+                    <div class="blog-item">
+                        <img class="comments-icon" src="/icons/icon-message.svg" alt="message-icon">
+                        <p>4</p>
+                    </div>
+                    <div class="blog-item">
+                        <img class="section-icon" src="/icons/forums.svg" alt="section-icon">
+                        <p>Веб-разработка</p>
+                    </div>
+                    <div class="blog-item">
+                        <img class="author-icon" src="/icons/person.svg" alt="author-icon">
+                        <p>Nast1289</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="profile">
+                <div class="profile-photo">
+                    <img src="img/IMG_5882.JPG" alt="photo">
+                </div>
+                <h5>Куралай Тойганбекова</h5>
+                <p>В основном пишу про веб - разработку, на React & Redux</p>
+                <p>285 постов за все время</p>
+                <button class="btn">Редактировать</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="/scripts/openOptions.js"></script>
+</body>
+</html>

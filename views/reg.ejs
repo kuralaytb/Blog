@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('head') -%>
+</head>
+<body>
+    <%- include('header') -%>
+    <div class="auth">
+        <h2 class="title">Регистрация</h2>
+        <form action='/api/signup'method='post' class="auth-form">
+            <input class="form-control mb-3 mt-5" type="email" placeholder="Введите email" name="email">
+            <input class="form-control mb-3" type="text" placeholder="Введите полное имя" name="full_name">
+            <input class="form-control mb-3" type="password" placeholder="Введите пароль" name="password">
+            <input class="form-control mb-3" type="password" placeholder="Подтвердите пароль" name="re_password">
+            <button type="submit" class="btn sign-in">Зарегистрироваться</button>
+        </form>
+    </div>
+</body>
+</html>
